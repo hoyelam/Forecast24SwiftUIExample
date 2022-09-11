@@ -14,6 +14,8 @@
 		17109FFE28CD24A400EFD959 /* Forecast24SwiftUIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17109FFD28CD24A400EFD959 /* Forecast24SwiftUIExampleTests.swift */; };
 		1710A00828CD24A400EFD959 /* Forecast24SwiftUIExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710A00728CD24A400EFD959 /* Forecast24SwiftUIExampleUITests.swift */; };
 		1710A00A28CD24A400EFD959 /* Forecast24SwiftUIExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710A00928CD24A400EFD959 /* Forecast24SwiftUIExampleUITestsLaunchTests.swift */; };
+		1710A01728CD26A100EFD959 /* HourlyForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710A01628CD26A100EFD959 /* HourlyForecastModel.swift */; };
+		1710A01928CDF25D00EFD959 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710A01828CDF25D00EFD959 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1710A00328CD24A400EFD959 /* Forecast24SwiftUIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Forecast24SwiftUIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1710A00728CD24A400EFD959 /* Forecast24SwiftUIExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast24SwiftUIExampleUITests.swift; sourceTree = "<group>"; };
 		1710A00928CD24A400EFD959 /* Forecast24SwiftUIExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast24SwiftUIExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1710A01628CD26A100EFD959 /* HourlyForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastModel.swift; sourceTree = "<group>"; };
+		1710A01828CDF25D00EFD959 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				17109FEC28CD24A200EFD959 /* Forecast24SwiftUIExampleApp.swift */,
+				1710A01628CD26A100EFD959 /* HourlyForecastModel.swift */,
 				17109FEE28CD24A200EFD959 /* ContentView.swift */,
+				1710A01828CDF25D00EFD959 /* ContentViewModel.swift */,
 				17109FF028CD24A400EFD959 /* Assets.xcassets */,
 				17109FF228CD24A400EFD959 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1710A01928CDF25D00EFD959 /* ContentViewModel.swift in Sources */,
+				1710A01728CD26A100EFD959 /* HourlyForecastModel.swift in Sources */,
 				17109FEF28CD24A200EFD959 /* ContentView.swift in Sources */,
 				17109FED28CD24A200EFD959 /* Forecast24SwiftUIExampleApp.swift in Sources */,
 			);
